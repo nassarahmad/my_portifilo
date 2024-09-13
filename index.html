@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">  
+    <link rel="stylesheet" href="css/Portfolio.css">
+</head>
+<body>
+    <header>
+       
+        <img class="ai" src="img/robot11.png" alt="ai photo">
+        <nav>
+            <div class="modify_bar">
+                <a href="#three"><i class="fa-solid fa-message fa-sm"></i> CONTACT </a>
+                <a href="#two"><i class="fa-solid fa-laptop fa-sm"></i> PROJECTS </a>
+                <a href="#one"><i class="fa-solid fa-user fa-sm"></i> ABOUT </a>
+            </div>
+        </nav>
+        <img class="photo" src="img/bitmoji.png" alt="my photo">
+        <div class="Me">
+            <h3 class="paragraph">Hi, My Name is</h3>
+            <h1 class="headline">Ola Abu Saalek</h1>
+            <h3 class="paragraph">Artificial Intelligent And Data Science Student</h3>
+        </div>
+        <div class="container">
+            <a href="https://www.w3schools.com/" class="download-btn" target="_blank">Take a look at my CV</a>
+        </div>
+    </header>
+    <section class="style_about_section" id="one">
+        <h1 class="headline_about">About</h1>
+        <h2 class="paragraph">I have a passion for the field of Artificial Intelligent and Data Science,<br>
+        I am particularly interested in Robots and their Assembly and Parts.<br>
+        I seek to increase my practical experience by applying what I have learned<br>
+        and I am looking for an opportunity to develop my skills in the field of<br>
+        programming and data analysis . </h2>
+        <img  class="robot_move" src="img/robotmove2.gif" alt="image move" >
+    </section>
+    <section class="background" id="two">
+        <br>
+        <h1>My Projects</h1>
+        <div class="projects-container" >
+            <div class="project-card" >
+                <img src="img/heart.jpg" alt="Predicting Heart Disease">
+                <h3>Predicting Heart Disease</h3>
+                <p>Model that predicts heart disease using KNN algorithm by entering some values, such as the cholesterol level, through the GUI interface, and the result is either 1 infected or 0 not infected using Jupyter program.</p>
+                <a href="https://www.w3schools.com/" target="_blank"><button>View</button></a>
+            </div>
+            <div class="project-card" >
+                <img src="img/smoke.jpg" alt="Smoking Visual Analysis">
+                <h3>Smoking Visual Analysis</h3>
+                <p>Smoking visual visualization analyze impact smoking on health using the Python language on the Jupyter program.</p>
+                <br><br>
+                <a href="https://www.w3schools.com/" target="_blank"><button>View</button></a>
+            </div>
+            <div class="project-card" >
+                <img src="img/traffic_light.jpg" alt="Fuzzy Traffic Light Control">
+                <h3>Fuzzy Traffic Light Control</h3>
+                <p>Design a fuzzy traffic light control system determine the duration of a green signal at an intersection using MATLAB and Jupyter.</p>
+                <br><br>
+                <a href="https://www.w3schools.com/" target="_blank"><button>View</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="backgroundcontact2" id="three">
+        <img class="robot_move3" src="img/robotmove3.gif" alt="image move"  >
+        <h1>Contact</h1>
+        <p>
+            Have an exciting project you need to help with ?<br>
+            Send me an email or contact me via instant message !<br>
+            Iam excited to develop my skills and share my expertise .
+        </p>
+        <form action="https://formspree.io/f/xovajpdv" method="post" autocomplete="on" target="_blank">
+            <label for="fname">Name</label>
+            <input type="text" name="firstname" placeholder="Your Name..." >
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Your Email...">
+            <br>
+            <label for="subject">Message<br></label>
+            <input type="text" id="subject" name="subject" placeholder="Write something..." >
+            <br>
+            <input type="submit" value=" SEND MESSAGE ">
+        </form>
+    </section>
+    <footer class="backgroundcontact">
+        <div class="tooltip">
+            <a href="https://www.w3schools.com/" class="icon-link" target="_blank">
+            <i class="fa-brands fa-github fa-2xl"  ></i></a>
+            <span>GitHub</span>
+        </div>       
+        <div class="tooltip">
+            <a href="https://www.w3schools.com/" class="icon-link" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2xl" ></i></a>
+            <span>LinkedIn</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.w3schools.com/" class="icon-link" >
+            <i class="fa-solid fa-envelope fa-2xl" ></i></a>
+            <span>Email</span>
+            <br><br><br>
+        </div>
+    </footer>
+    
+</body>
+</html>
