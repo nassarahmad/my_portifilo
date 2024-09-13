@@ -340,7 +340,7 @@ form{
 }
 
 /* Mobile styles (up to 768px) */
-@media (max-width: 768px) {
+@media (min-width: 400px) and(max-width: 768px) {
     header {
         padding: 0 0 100px 0;
     }
